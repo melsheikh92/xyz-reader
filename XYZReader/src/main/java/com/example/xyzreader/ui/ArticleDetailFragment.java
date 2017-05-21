@@ -125,7 +125,7 @@ public class ArticleDetailFragment extends Fragment implements
         });
 
 
-        
+
         mScrollView = (ObservableScrollView) mRootView.findViewById(R.id.scrollview);
         mScrollView.setCallbacks(new ObservableScrollView.Callbacks() {
             @Override
