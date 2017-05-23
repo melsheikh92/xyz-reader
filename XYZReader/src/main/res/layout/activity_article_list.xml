@@ -10,7 +10,7 @@
             android:layout_height="wrap_content"
             app:layout_scrollFlags="scroll|snap"
             android:id="@+id/toolbar_container"
-            android:elevation="8dp"
+            android:stateListAnimator="@drawable/appbar_elevation"
 
             android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
             android:fitsSystemWindows="true">
@@ -59,7 +59,10 @@
             android:paddingLeft="@dimen/list_side_margin"
             android:paddingRight="@dimen/list_side_margin"
             android:paddingTop="136dp"
-            android:scrollbarStyle="outsideOverlay" />
+            android:scrollbarStyle="outsideOverlay"
+            android:transitionGroup="true"
+
+            />
     </android.support.v4.widget.SwipeRefreshLayout>
 
 

@@ -15,7 +15,7 @@
      limitations under the License.
 -->
 
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
 
     <style name="Theme.Bacon" parent="@style/Theme.AppCompat.Light.NoActionBar">
 
@@ -34,6 +34,7 @@
         <item name="colorAccent">@color/colorAccent</item>
         <item name="android:windowContentOverlay">@null</item>
 
+        <item name="android:windowContentTransitions" tools:targetApi="lollipop">true</item>
 
 
     </style>
