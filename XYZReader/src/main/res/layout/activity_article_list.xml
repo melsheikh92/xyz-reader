@@ -11,6 +11,7 @@
             app:layout_scrollFlags="scroll|snap"
             android:id="@+id/toolbar_container"
             android:stateListAnimator="@drawable/appbar_elevation"
+            android:elevation="4dp"
 
             android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
             android:fitsSystemWindows="true">
