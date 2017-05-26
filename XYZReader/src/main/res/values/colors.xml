@@ -7,8 +7,8 @@
     <color name="ltgray">#ffe0e0e0</color>
 
 
-    <color name="colorPrimary">#FD5621</color>
-    <color name="colorPrimaryDark">#FD5621</color>
+    <color name="colorPrimary">#f46a0f</color>
+    <color name="colorPrimaryDark">#ba3a00</color>
     <color name="colorAccent">#3D990E</color>
 
 </resources>

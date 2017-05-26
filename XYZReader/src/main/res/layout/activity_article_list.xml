@@ -47,7 +47,7 @@
         android:id="@+id/swipe_refresh_layout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
         >
 
         <android.support.v7.widget.RecyclerView
@@ -59,7 +59,7 @@
             android:paddingBottom="28dp"
             android:paddingLeft="@dimen/list_side_margin"
             android:paddingRight="@dimen/list_side_margin"
-            android:paddingTop="136dp"
+            android:paddingTop="36dp"
             android:scrollbarStyle="outsideOverlay"
             android:transitionGroup="true"
 
